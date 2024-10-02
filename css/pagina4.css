@@ -1,0 +1,42 @@
+.contenedor{
+    display: grid;
+    grid-template-columns:450px 550px 250px;
+    grid-template-rows: 250px 50px 650px 50px;
+    grid-template-areas: 
+    'enc enc enc'
+    ''
+    
+    
+    
+    
+    ;
+}
+header{
+    background-color: yellow;
+    grid-area: enc;
+}
+section{
+    background-color: darkseagreen;
+    grid-area: enl;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: darkgreen;
+    grid-area: cro;
+}
+main{
+    background-color: lightskyblue;
+    grid-area: emp;
+}
+aside{
+    background-color: beige;
+    grid-area: tex;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+}
+
+

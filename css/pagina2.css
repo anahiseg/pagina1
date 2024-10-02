@@ -1,0 +1,50 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 450px 550px 250px ;
+    grid-template-rows: 250px 50px 750px 50px;
+    grid-template-areas:
+    'enc enc enc'
+    'enl enl enl'
+    'mis vis fot'
+    'pie pie pie'
+    
+    
+    
+    
+    ;
+}
+header{
+    background-color: yellow;
+    grid-area: enc;
+}
+img{
+    width: 1250px;
+    height: 250px;
+}
+section{
+    background-color: mediumseagreen;
+    grid-area: enl;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-color: darksalmon;
+    grid-area: mis;
+    text-align: center;
+}
+nav{
+    background-color: cornflowerblue;
+    grid-area: vis;
+}
+aside{
+    background-color: lightsalmon;
+    grid-area: fot;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+}
+
+

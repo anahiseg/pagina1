@@ -1,0 +1,65 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 450px 550px 250px;
+    grid-template-rows: 350px 50px 650px 50px;
+    grid-template-areas:
+    'enc enc enc'
+    'enl enl enl'
+    'for con inf'
+    'pie pie pie'
+    
+    
+    ;
+}
+header{
+    background-color: yellow;
+    grid-area: enc;
+}img{
+    width: 1250px;
+    height: 350px;
+}
+h4{
+    text-align: center;
+    color: black;
+}
+section{
+    background-color: cornflowerblue;
+    grid-area: enl;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-color: dodgerblue;
+    grid-area: for;
+}
+aside{
+    background-color: coral;
+    grid-area: con;
+    text-align: center;
+}
+nav{
+    background-color: darkseagreen;
+    grid-area: inf;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+}
+a{
+    text-align: center;
+}
+li{
+    display:inline
+}
+h4{
+    text-align: center;
+    color: aliceblue;
+}
+.mm{
+    width: 450px;
+    height: 650px;
+}
+
+
